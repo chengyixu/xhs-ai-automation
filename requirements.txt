@@ -1,0 +1,14 @@
+requests>=2.31.0
+mcp>=1.0.0
+schedule>=1.2.0
+python-dotenv>=1.0.0
+# Optional dependencies for extended features
+# openai>=1.0.0  # If using OpenAI instead of Qwen
+# fastapi>=0.104.1  # For web API version
+# uvicorn[standard]>=0.24.0  # For web API version
+# gunicorn>=21.2.0  # For production deployment
+# python-multipart>=0.0.6  # For file uploads
+# jinja2>=3.1.2  # For template rendering
+# pydantic>=2.4.2  # For data validation
+# httpx>=0.25.1  # For async HTTP requests
+# aiofiles>=23.2.1  # For async file operations
