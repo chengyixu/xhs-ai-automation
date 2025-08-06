@@ -1,6 +1,16 @@
-# Xiaohongshu AI Automation System
+# 小红书AI自动化发布系统 | XHS AI Auto-Publisher
 
-An advanced AI-powered automation solution for Xiaohongshu (Little Red Book) content creation and management. This intelligent system combines psychological growth tracking, automated content generation, and strategic posting to maintain an engaging social media presence.
+🚀 **智能内容创作，心理学驱动，全自动发布**
+
+An advanced AI-powered automation solution for Xiaohongshu (Little Red Book) content creation and management. This intelligent system features a unique virtual persona "ChengLingJiu" (程零九) - an alien cultural researcher with evolving psychological traits, creating authentic and emotionally resonant content.
+
+## ✨ Core Highlights
+
+- **Unique Virtual Persona**: ChengLingJiu (程零九) - An alien cultural researcher studying Earth
+- **Psychological Evolution**: Dynamic personality growth based on Big Five model and emotional intelligence
+- **Emotional Resonance**: Content that reflects genuine feelings and personal growth
+- **Multi-Platform Intelligence**: Aggregates insights from Zhihu, Weibo, WeChat, Douyin, and XHS
+- **Fully Automated**: From news collection to content publication, all on autopilot
 
 ## 🌟 Features
 
@@ -58,13 +68,13 @@ An advanced AI-powered automation solution for Xiaohongshu (Little Red Book) con
 4. **Run the automation**
    ```bash
    # Manual mode
-   python xhs_ai_powered_client.py --manual
+   python xhs_ai_powered_client_cheng.py --manual
    
    # Daemon mode (scheduled automation)
-   python xhs_ai_powered_client.py --daemon
+   python xhs_ai_powered_client_cheng.py --daemon
    
    # Single run
-   python xhs_ai_powered_client.py
+   python xhs_ai_powered_client_cheng.py
    ```
 
 ## 🔧 Configuration
@@ -104,7 +114,7 @@ xhs-ai-automation/
 ├── cookies/                # Authentication cookies
 ├── images/                 # Images for posts
 ├── logs/                   # Application logs
-├── xhs_ai_powered_client.py    # Main application
+├── xhs_ai_powered_client_cheng.py  # Main application
 ├── psychological_growth_manager.py  # Psychological growth module
 ├── requirements.txt        # Python dependencies
 ├── .env.example           # Environment variables template
@@ -178,11 +188,29 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Jina AI for web content extraction
 - Xiaohongshu MCP server for platform integration
 
+## 🎭 About ChengLingJiu (程零九)
+
+ChengLingJiu is a 23-year-old alien cultural researcher stationed on Earth to study human culture and psychology. Her unique perspective and evolving personality create content that is:
+
+- **Authentically Different**: Views Earth culture through alien eyes
+- **Emotionally Rich**: Experiences mild melancholy while adapting to Earth
+- **Continuously Growing**: Personality evolves based on daily experiences
+- **Culturally Curious**: High openness (85%) to new experiences
+- **Introspective**: Low extraversion (35%) leads to deep observations
+
+### Psychological Profile
+- **Openness**: 85/100 - Highly curious about new things
+- **Conscientiousness**: 75/100 - Serious but flexible
+- **Extraversion**: 35/100 - Introverted observer
+- **Agreeableness**: 70/100 - Gentle and understanding
+- **Neuroticism**: 60/100 - Sensitive to emotional nuances
+
 ## 📞 Support
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
-- Contact: [your-email@example.com]
+- Contact: contact@panor.tech
+- Website: https://www.panor.tech
 
 ---
 
